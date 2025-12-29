@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="img/Logo.png" alt="logo" class="logo">
+        </div>
+    </header>
+
+    <section class="hero-slider">
+
+        <div class="slide active" style="background-image: url('img/foto\ 1.jpg');">
+            <div class="content-box">
+                <h1 class="hero-title">Seu descanso no <br> Corumbá IV <br> começa aqui.</h1>
+                <button class="btn-reserve">Reserve já</button>
+            </div>
+        </div>
+
+        <div class="slide active" style="background-image: url('img/foto\ 2.jpg');">
+            <div class="content-box">
+                <h1 class="hero-title">Seu descanso no <br> Corumbá IV <br> começa aqui.</h1>
+                <button class="btn-reserve">Reserve já</button>
+            </div>
+        </div>
+
+        <div class="slide active" style="background-image: url('img/foto\ 3.jpg');">
+            <div class="content-box">
+                <h1 class="hero-title">Seu descanso no <br> Corumbá IV <br> começa aqui.</h1>
+                <button class="btn-reserve">Reserve já</button>
+            </div>
+        </div>
+
+        <div class="navigation-dots">
+            <div class="dot active" onclick="currentSlide(0)"></div>
+            <div class="dot" onclick="currentSlide(1)"></div>
+            <div class="dot" onclick="currentSlide(2)"></div>
+        </div>
+
+    </section>
+
+    <section class="hero-section">
+        <div class="container">
+
+            <div class="content-col">
+
+                <div class="text-block">
+                    <h1>Um refúgio para viver <br> bons momentos em <br> família</h1>
+                    <p>
+                        Nossa casa de temporada foi pensada para oferecer conforto,
+                        tranquilidade e experiências inesquecíveis à beira do lago Corumbá IV.
+                        Um espaço acolhedor, ideal para descansar, se reunir e aproveitar
+                        cada momento com quem você ama.
+                    </p>
+                </div>
+
+                <div class="amenities-block">
+                    <h2>Comodidades</h2>
+                    <div class="icons-wrapper">
+                        <div class="icon-item">
+                            <i class="fa-solid fa-wifi"></i>
+                        </div>
+                        <div class="icon-item">
+                            <i class="fa-solid fa-tv"></i>
+                        </div>
+                        <div class="icon-item">
+                            <i class="fa-regular fa-snowflake"></i>
+                        </div>
+                        <div class="icon-item">
+                            <i class="fa-solid fa-music"></i>
+                        </div>
+                        <div class="icon-item">
+                            <i class="fa-solid fa-maquina"></i>
+                        </div>
+                        <div class="icon-item">
+                            <i class="fa-solid fa-bed"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="image-col">
+                <div class="image-frame">
+                    <img src="img/sobre.jpg" alt="sobre" class="hero-image">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="acomodacoes-grid">
+
+        <div class="grid-item" style="background-image: url('img/quarto.jpg');">
+            <div class="grid-content">
+                <h3>Conforto e comodidade</h3>
+                <p>A casa dispõe de 3 quartos amplos, todos com ar-condicionado, garantindo noites tranquilas e muito
+                    conforto para toda a família.</p>
+            </div>
+        </div>
+
+        <div class="grid-item" style="background-image: url('img/cozinha.jpg');">
+            <div class="grid-content">
+                <h3>Cozinha completa com vista para o lago</h3>
+                <p>A cozinha é totalmente equipada, com eletrodomésticos, vista direta para o lago, som embutido no teto
+                    e churrasqueira integrada.</p>
+            </div>
+        </div>
+
+        <div class="grid-item" style="background-image: url('img/varanda.jpg');">
+            <div class="grid-content">
+                <h3>Varanda e mirante</h3>
+                <p>A casa conta com uma varanda aconchegante, que dá acesso ao mirante, onde você pode relaxar e
+                    apreciar uma linda vista do lago.</p>
+            </div>
+        </div>
+
+        <div class="grid-item" style="background-image: url('img/piscina.jpg');">
+            <div class="grid-content">
+                <h3>Área de lazer</h3>
+                <p>Na área externa, você encontra uma piscina aquecida com hidromassagem, ideal para todas as estações e
+                    perfeita para reunir a família.</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="boat-section" style="background-image: url('img/passeio.jpg');">
+        <div class="boat-container">
+            <div class="boat-card">
+                <h2>Passeio de lancha no <br> Corumbá IV</h2>
+                <p class="subtitle">Viver o Lago</p>
+                
+                <p class="description">
+                    Descubra as belezas do Corumbá IV em um passeio de lancha exclusivo, 
+                    ideal para relaxar, fotografar e aproveitar o lago com conforto e segurança.
+                </p>
+                
+                <p class="cta-text">Consulte disponibilidade e valores.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Depoimentos</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>“O segundo melhor investimento foi comprar um estúdio. O primeiro foi chamar o Rafael para projetar.”</p>
+                    <span class="author">- Nilson Rever</span>
+                </div>
+
+                <div class="testimonial-card">
+                    <p>“Impressionante a otimização de espaço. Se soubessem que daria pra fazer tanto, teriam me cobrado mais.”</p>
+                    <span class="author">- Helen Dotta</span>
+                </div>
+
+                <div class="testimonial-card">
+                    <p>“Projeto focado no hóspede e em como deixar meu espaço melhor. As 5 estrelas não param de chegar.”</p>
+                    <span class="author">- Manoel Lyra</span>
+                </div>
+            </div>
+        </div>
+
+        <img src="deco-coco.png" alt="Decoração Tropical" class="deco-image">
+    </section>
+
+    <footer class="main-footer">
+        
+        <div class="footer-top">
+            <img src="img/Logo colorida.png" alt="logo" class="footer-logo">
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-content container">
+                
+                <div class="footer-col address-col">
+                    <h3>Endereço</h3>
+                    <p>Lago Corumbá IV - Zona Rural</p>
+                    <p>Alexânia - GO</p>
+                    <p>CEP: 72930-000</p>
+                </div>
+
+                <div class="footer-col social-col">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>2025 Rancho Família Natal | Desenvolvido por Tereza Silva</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
